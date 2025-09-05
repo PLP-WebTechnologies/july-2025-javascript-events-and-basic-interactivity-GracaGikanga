@@ -1,0 +1,207 @@
+.head {
+    display:flex;
+    flex-direction:row;
+    height:30vh;
+    align-items: flex-start;
+    background-color: #C8B3F6;
+    
+}
+
+.head > div {
+ 
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 1em;
+    padding: 0.5rem 5rem;
+    color:white;
+    flex-wrap:nowrap;
+
+  
+}
+
+.hd1 {
+    color:rgb(4, 4, 5)
+}
+.hd2 {
+    background-color: #032c7d;
+     border-radius:1em;
+    text-align:center;
+    height:4vh;
+}
+
+.grid-cont{
+    display:grid;
+    grid-template-areas: "message socials";
+    grid-row: auto auto;
+    margin-top:-3em;
+    height:50vh;
+    gap: 1em;
+    grid-template-columns: 50vw 30vw;
+    
+}
+
+.message{
+    background-color: rgb(241, 235, 228);
+    border-radius: 0.5em;
+    margin-left:1em;
+    
+}
+
+.socials {
+    background-color:rgb(126, 102, 148)
+   
+}
+
+#mess{
+    resize:none;
+}
+
+#errorMessage {
+    color:red;                             
+}
+
+#name{
+    height:2em;
+    width:20em;
+}
+
+#email{
+    height:2em;
+    width:20em;  
+}
+
+#mess {
+    width:20em;  
+}
+
+#phone{
+    height:2em;
+    width:20em;
+}
+
+/*FAQ section*/
+.accordion {
+    margin-top: 5em;
+    border: 2px solid #391B49;  /* shorthand */
+    border-radius: 0.5em;
+    margin-left: 1em;           /* instead of -10 */
+    margin-right: 1em;          /* keeps it responsive */
+    padding: 1em;               /* keeps children inside */
+    box-sizing: border-box;     /* ensures border + padding stay inside width */
+    width: 100%;
+    max-width: 800px; /* optional */
+    margin: 5em auto; /* centers it */
+}
+
+
+
+
+
+.qst-ans {
+    text-align:center;
+    margin:2em;
+   
+
+}
+
+.question{
+    border-radius:1em;
+    border-style: solid;
+    border-color:black;
+    background-color: #C29CE4;
+    height: 4em;
+    width:20em;
+    text-align:center;
+   
+}
+
+.answer{
+    border-style:double;
+    border-color:#999ECF;
+    margin-bottom: 2em;
+    display:none;
+}
+
+
+.h1 {
+text-align:center;
+}
+
+.backbut{
+    margin-top:2em;
+    padding:1em 1em;
+    width: 30em;
+    border-radius:1em;
+    border-color:#C493C3;
+    font-size:1em;
+
+}
+
+
+.head-dark {
+  background-color:#9a3f4a;
+  color: white;
+}
+
+.message-dark {
+  background-color:#3D1419;
+  color: white;
+}
+
+.socials-dark {
+  background-color: darkgreen;
+  color: white;
+}
+
+.accordion-dark {
+  background-color: maroon;
+  color: white;
+}
+
+body.body-dark {
+    background-color: #011627;
+}
+
+/*Sroll button*/
+#scroll-up {
+  bottom: 20px;
+  right: 20px;
+  padding: 0.8em 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: #2c1d1d;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#scroll-up:hover {
+  background-color: #df2e2e;
+}
+
+
+.socials{
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+}
+.socials > div {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.socials > div:hover {
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
