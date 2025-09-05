@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>web dev week 6 assignment</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+   <header id ="top">
+    <div class="head">
+        <div class="hd1">Home</div>
+        <div class="hd1">About</div>
+        <div class="hd2">Contact us</div>
+    <div>
+    </header>
+
+    
+        <div class="grid-cont">
+            <div class="message">
+                <form id="form">
+                    <!--Name input-->
+                    <label for="fname">Full Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                    <p ></p>
+
+                    <!--email input-->
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email">
+                    <p ></p>
+                    
+                    <!--message textarea-->
+                    <textarea id="mess" rows="5" cols="21" placeholder="write your message:"></textarea>
+                      <p></p>
+                    
+                    <!--phone input-->
+                    <label for="phone:">Phone Number:</label><br>
+                    <input  type="tel" id="phone" >
+                    <!--Place for error message-->
+                    <p id="errorMessage"></p>
+
+                    <button id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="socials">Let's Connect:
+                <div>Tiktok</div>
+                <div>Instagram</div>
+                <div>LinkedIn</div>
+                <div>Facebook</div>
+                
+            </div>
+        </div>
+
+
+            <br>
+        <div class="accordion">
+        <h1 class="h1">FAQ</h1>
+            <div class="qst-ans">
+            
+        <!--1st question-->
+            <div class="question" > What is the best way to start eating healthier?</div>
+            <div class="answer" >Begin by adding more whole foods like fruits, 
+                                vegetables, whole grains, and lean proteins. 
+                                Reduce processed foods and sugary drinks gradually 
+                                instead of cutting everything at once.
+            </div>
+
+        <!--2nd question-->
+        <div class="question" >How much water should I drink every day?</div>
+        <div class="answer" >About 8 glasses (2 liters) per day, but needs 
+                            vary depending on activity level, climate, and 
+                            individual health. Listen to your body and hydrate
+                             regularly.</div>
+
+        <!--3rd question-->
+        <div class="question" >Can a healthy diet help with weight loss?</div>
+        <div class="answer">Yes! A balanced diet combined with regular 
+                            physical activity is a sustainable way to 
+                            lose weight. Focus on nutrient-dense foods 
+                            and portion control. Consulting a registered 
+                            dietitian can help tailor a plan to your needs.</div>
+
+        <!--4th question-->
+        <div class="question" >Is it okay to skip meals if I had a heavy breakfast?</div>
+        <div class="answer"> Not recommended. Skipping meals can lead to energy crashes 
+                            and poor digestion. Instead, spread your calorie intake 
+                            evenly throughout the day.</div>
+
+        </div>
+        </div>
+
+        <div class="back">
+            <button class="backbut" >Change Mode</button>
+        </div>
+        
+        <BR>
+        <div class="scroll">
+            <button  id="scroll-up">Back to top</button>
+        </div>
+<script src="script.js"></script>
+</body>
+</html
